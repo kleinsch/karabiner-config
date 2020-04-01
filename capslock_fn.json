@@ -16,16 +16,16 @@
                        {"type": "basic", "from": {"key_code": "k", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "down_arrow"}]},
                        {"type": "basic", "from": {"key_code": "l", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "right_arrow"}]}]
     },
-    { "description": "Fn + H to Delete",
+    { "description": "Fn + H to Backspace",
       "manipulators": [{"type": "basic", "from": {"key_code": "h", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_or_backspace"}]}]
     },
-    { "description": "Fn + N to Delete",
+    { "description": "Fn + N to Backspace",
       "manipulators": [{"type": "basic", "from": {"key_code": "n", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_or_backspace"}]}]
     },
-    { "description": "Fn + D to Delete forward",
+    { "description": "Fn + D to Delete",
       "manipulators": [{"type": "basic", "from": {"key_code": "d", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_forward"}]}]
     },
-    { "description": "Fn + M to Delete forward",
+    { "description": "Fn + M to Delete",
       "manipulators": [{"type": "basic", "from": {"key_code": "m", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_forward"}]}]
     },
     { "description": "Disable arrows",
