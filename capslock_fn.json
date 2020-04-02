@@ -1,5 +1,5 @@
 {
-  "title": "Caps Lock (Fn) + HJKL",
+  "title": "Caps Lock (Fn) + arrows, delete",
   "rules": [
     { "description": "Caps Lock to Fn/Esc",
       "manipulators": [{"type": "basic", "from": {"key_code": "caps_lock", "modifiers": {"optional": ["any"]}}, "to": [{"key_code": "fn"}], "to_if_alone": [{"key_code": "escape"}]}]
@@ -16,16 +16,16 @@
                        {"type": "basic", "from": {"key_code": "k", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "down_arrow"}]},
                        {"type": "basic", "from": {"key_code": "l", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "right_arrow"}]}]
     },
-    { "description": "Fn + H to Delete",
+    { "description": "Fn + H to Backspace",
       "manipulators": [{"type": "basic", "from": {"key_code": "h", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_or_backspace"}]}]
     },
-    { "description": "Fn + M to Delete",
+    { "description": "Fn + M to Backspace",
       "manipulators": [{"type": "basic", "from": {"key_code": "m", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_or_backspace"}]}]
     },
-    { "description": "Fn + D to Delete forward",
+    { "description": "Fn + D to Delete",
       "manipulators": [{"type": "basic", "from": {"key_code": "d", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_forward"}]}]
     },
-    { "description": "Fn + , to Delete forward",
+    { "description": "Fn + , to Delete",
       "manipulators": [{"type": "basic", "from": {"key_code": ",", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_forward"}]}]
     },
     { "description": "Disable arrows",
