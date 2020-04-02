@@ -26,7 +26,7 @@
       "manipulators": [{"type": "basic", "from": {"key_code": "d", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_forward"}]}]
     },
     { "description": "Fn + , to Delete",
-      "manipulators": [{"type": "basic", "from": {"key_code": ",", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_forward"}]}]
+      "manipulators": [{"type": "basic", "from": {"key_code": "comma", "modifiers": {"mandatory": ["fn"], "optional": ["any"]}}, "to": [{"key_code": "delete_forward"}]}]
     },
     { "description": "Disable arrows",
       "manipulators": [{"type": "basic", "from": {"key_code": "left_arrow"},  "to": [{"key_code": "vk_none"}]},
